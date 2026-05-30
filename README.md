@@ -208,7 +208,7 @@ This step verified that all investigation datasets were successfully generated f
 
 Packet Investigation and Analysis Lab is now complete.
 
-lab folder on the personal macbook pro containing:
+**lab folder on the personal macbook pro containing**:
 
 mac_ifconfig.log
 

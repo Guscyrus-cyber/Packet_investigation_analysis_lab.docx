@@ -192,20 +192,20 @@ Please refer to image # 14
 
 The Step 15  Review Generated Investigation Datasets is now successfully completed.
 
-Output confirms all three datasets were created:
+**Output confirms all three datasets were created**:
 
-dns_traffic.log              544B
+1. dns_traffic.log              544B
 
-suspicious_connections.log   437B
+2. suspicious_connections.log   437B
 
-tls_traffic.log               20K
+3. tls_traffic.log               20K
 
 
-dns_traffic.log — contains DNS-related packet activity extracted from the PCAP. 
+. dns_traffic.log — contains DNS-related packet activity extracted from the PCAP. 
 
-tls_traffic.log — contains HTTPS/TLS and QUIC traffic over port 443 extracted from the PCAP. 
+. tls_traffic.log — contains HTTPS/TLS and QUIC traffic over port 443 extracted from the PCAP. 
 
-suspicious_connections.log — contains communication patterns and repeated source/destination pairs used for threat-hunting analysis. 
+. suspicious_connections.log — contains communication patterns and repeated source/destination pairs used for threat-hunting analysis. 
 
 
 This step verified that all investigation datasets were successfully generated from the packet capture file. The DNS, TLS, and suspicious communication datasets were reviewed to confirm successful creation and availability for future packet analysis, threat hunting, network monitoring, and SOC investigation activities.

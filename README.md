@@ -228,7 +228,7 @@ tls_traffic.log
 
 suspicious_connections.log
 
-These datasets can later be used for:
+**These datasets can later be used for**:
 
 Wireshark analysis
  

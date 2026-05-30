@@ -211,19 +211,30 @@ Packet Investigation and Analysis Lab is now complete.
 lab folder on the personal macbook pro containing:
 
 mac_ifconfig.log
+/
 mac_netstat.log
+/
 listening_ports.log
+/
 mac_network_capture.pcap
+/
 dns_traffic.log
+/
 tls_traffic.log
+/
 suspicious_connections.log
-
+/
 These datasets can later be used for:
 
-Wireshark analysis 
-Zeek network monitoring 
-Suricata IDS analysis 
-Splunk ingestion and dashboards 
-Additional threat hunting exercises 
+Wireshark analysis
+/ 
+Zeek network monitoring
+/ 
+Suricata IDS analysis
+/ 
+Splunk ingestion and dashboards
+/ 
+Additional threat hunting exercises
+/ 
 
 

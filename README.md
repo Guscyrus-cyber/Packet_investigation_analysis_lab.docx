@@ -1,4 +1,4 @@
-                                **Packet Investigation and Analysis Lab**
+                                          Packet Investigation and Analysis Lab
 
 This lab focuses on packet investigation and network traffic analysis using the packet capture dataset created from my personal MacBook Pro. In this lab phase, the goal is to move beyond basic log review and begin analyzing real packet-level traffic. This lab helps to understand how devices communicate across the network, what IP addresses are involved, which protocols are being used, and whether any traffic patterns look unusual or suspicious.
 In this lab, the main tool we start with is tcpdump, especially the command tcpdump -r network_capture.pcap, which reads an existing packet capture file instead of capturing live traffic. Later, the same PCAP file can be analyzed with Wireshark for graphical packet inspection, Zeek for structured network logs, and Suricata for IDS-style detection and alerting. These tools are commonly used by SOC analysts, network defenders, malware analysts, and incident responders to investigate network behavior.

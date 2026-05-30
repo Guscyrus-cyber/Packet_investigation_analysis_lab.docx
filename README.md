@@ -5,16 +5,23 @@ In this lab, the main tool we start with is tcpdump, especially the command tcpd
 During this lab, the packet capture will be analyzed for source IPs, destination IPs, protocols, DNS requests, TLS/HTTPS traffic, and suspicious communication patterns. The purpose is to identify who the MacBook Pro communicated with, what type of traffic was generated, whether DNS or encrypted traffic appears in the capture, and whether any repeated or unusual connections should be investigated further. This lab builds practical packet analysis skills and prepares the dataset for later investigation in Wireshark, Zeek, Suricata, and Splunk.
 
 **Step 1 — Navigate to Dataset Folder**
+
 Command: cd ~/Downloads
 
 Command: ls
+
 Locate the packet capture dataset.
+
 Please refer to image # 1 in the repository 
 
 **Step 2 — Verify Packet Capture File Exists**
+
 Command: ls -lh *.pcap
+
 verify the PCAP dataset exists
+
 confirm packet capture file size.
+
 Please refer to image # 2 in the repository.
 
 

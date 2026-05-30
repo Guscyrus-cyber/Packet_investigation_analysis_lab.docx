@@ -195,53 +195,35 @@ The Step 15  Review Generated Investigation Datasets is now successfully complet
 Output confirms all three datasets were created:
 
 dns_traffic.log              544B
-
 suspicious_connections.log   437B
-
 tls_traffic.log               20K
 
 
 dns_traffic.log — contains DNS-related packet activity extracted from the PCAP. 
-
 tls_traffic.log — contains HTTPS/TLS and QUIC traffic over port 443 extracted from the PCAP. 
-
 suspicious_connections.log — contains communication patterns and repeated source/destination pairs used for threat-hunting analysis. 
 
 
-This step verified that all investigation datasets were successfully generated from the packet capture file. The DNS, TLS, and suspicious 
-
-communication datasets were reviewed to confirm successful creation and availability for future packet analysis, threat hunting, network 
-
-monitoring, and SOC investigation activities.
+This step verified that all investigation datasets were successfully generated from the packet capture file. The DNS, TLS, and suspicious communication datasets were reviewed to confirm successful creation and availability for future packet analysis, threat hunting, network monitoring, and SOC investigation activities.
 
 Packet Investigation and Analysis Lab is now complete.
 
 lab folder on the personal macbook pro containing:
 
 mac_ifconfig.log
-
 mac_netstat.log
-
 listening_ports.log
-
 mac_network_capture.pcap
-
 dns_traffic.log
-
 tls_traffic.log
-
 suspicious_connections.log
 
 These datasets can later be used for:
 
 Wireshark analysis 
-
 Zeek network monitoring 
-
 Suricata IDS analysis 
-
 Splunk ingestion and dashboards 
-
 Additional threat hunting exercises 
 
 
